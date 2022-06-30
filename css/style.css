@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    color: rgb(1, 14, 129);
+}
+
+#show{
+    background: url("../img/mt-everest.jpg");
+   background-size: cover;
+   background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+#show p{
+    font-size: 18px;
+    margin: 20px 10px;
+}
+#show .btn{
+    border: 1px solid rgb(1, 14, 129);
+    border-radius: 15px;
+    padding: 10px 20px;
+    color: rgb(1, 14, 129);
+    font-size: 20px;
+    text-decoration: none;
+}
+#show .btn:hover{
+    background-color: rgb(1, 14, 129);
+    color: #fff;
+}
+#sec-a{
+    padding: 15px;
+    background-color: rgb(1, 14, 129);
+    color: #fff;
+    text-align: center;
+}
+#sec-b{
+    padding: 15px;
+    background-color: #eee;
+    text-align: center;
+}
+#sec-c{
+    display: flex;
+    
+}
+#sec-c .box-1,#sec-c .box-3{
+    background-color: rgb(1, 14, 129);
+    color: #fff;
+}
+#sec-c .box2{
+    background-color: #f0f0f0;
+}
+#sec-c div{
+    padding: 20px;
+}
